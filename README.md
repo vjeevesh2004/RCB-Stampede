@@ -75,6 +75,7 @@ Crowd stampedes are unpredictable but often **preventable**. This project aims t
 ```DAX
 Invalid Ticket % = DIVIDE(CALCULATE(COUNTROWS('RCB_Stampede_Final_Dataset_3'), 'RCB_Stampede_Final_Dataset_3'[ticket_status] = "Invalid"), COUNTROWS('RCB_Stampede_Final_Dataset_3'))
 Phase = SWITCH(TRUE(), '4th'[Time] > TIME(18, 45, 0), "Post-Incident", '4th'[Time] > TIME(18, 0, 0), "Incident",'4th'[Time] > TIME(16, 0, 0), "Peak Arrival","Early Arrival")
+```
 
 ## ✨ What I Learned
 - Simulating real-world events using Python libraries
