@@ -1,0 +1,36 @@
+﻿Column Name,Description
+timestamp,Date and time of the individual's presence near the stadium.
+gate_id,The gate number near which the person was present (Gate 1 to Gate 13).
+attendee_id,Unique identifier assigned to each individual record.
+gender,Gender of the person (M or F).
+age,Age of the individual (15 to 60).
+pre_existing_medical_condition,A True/False flag indicating if the individual had a known medical condition.
+ticket_status,"Status of ticket: Verified, Fake, or No Ticket."
+wait_time_min,Time (in minutes) the person spent waiting at a gate or area.
+crowd_density_sq_m,Estimated number of people per square meter near the individual.
+security_personnel,Count of security guards visible in that area.
+police_presence,Count of police officers visible in that area.
+incident_reported,"Whether any crowd-related incident (stampede, panic, etc.) was reported."
+incident_type,"Type of incident: None, Panic, Stampede, or Faint"
+injury_severity,"Severity of injury if any: None, Minor, or Major."
+emergency_called,Whether emergency services were called for this case.
+response_time_min,The time in minutes it took for the first responder to arrive after an incident was reported.
+first_responder_type,Time (in minutes) emergency responders took to arrive.
+crowd_control_measures,"Measures in place: Barricades, Rope Lines, or None."
+entry_delay_min,Minutes of delay caused before entry due to crowd or security.
+social_media_mentions,Estimated count of social media mentions/posts nearby (simulated).
+panic_button_pressed,Whether someone in the vicinity used a panic button.
+possible_death_cause,Potential cause of death in case of a fatal outcome (if applicable).
+attempted_entry,Whether the individual attempted to enter the stadium.
+location_category,The specific area where the individual was
+exit_gate_status,"The condition of the nearest exit during the incident (Clear, Partially Blocked, etc.)."
+communication_method,"How information was being spread at the time (e.g., Word of Mouth, Official Announcement)"
+group_size,Number of people the individual was grouped with.
+behavior_flag,"Behavioral trait observed: Normal, Aggressive, Anxious, etc."
+mob_movement,"Type of crowd movement around them: Standing, Pushing, Walking, or Running."
+evacuation_mode,"How the person evacuated the area: Self-Walked, Carried, Stretcher, etc."
+duration_in_crowd_min,Duration (in minutes) the person was physically within the crowd.
+lat,Latitude of the person's location
+lon,Longitude of the person's location
+mode_of_transport,How the person traveled to the event
+emotional_state,"Emotional state: Calm, Scared, Euphoric, Confused, or Angry."
